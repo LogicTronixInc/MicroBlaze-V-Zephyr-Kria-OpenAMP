@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ../Kria-Ubuntu/device-tree
+cd ../device-tree
 bash install.sh

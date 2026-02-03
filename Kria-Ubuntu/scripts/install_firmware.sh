@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ../Kria-Ubuntu/Firmwares
+cd ../Firmwares
 bash install.sh
