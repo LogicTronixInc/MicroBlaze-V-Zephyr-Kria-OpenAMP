@@ -124,6 +124,7 @@ sudo xmutil loadapp kr260-zephyr-all-sensor-openamp
 
 This will load the Microblaze and Zephyr firmware elf.
 After loading the hardware overlay, serial terminal attached to Microblaze will log the information of Microblaze app:
+
 ![OpenAMP microblaze serial log 1](images/openamp_ublaze_serial_log1.png)
 
 The Microblaze side app will wait for Linux side OpenAMP host application to create the rpmsg channels.
