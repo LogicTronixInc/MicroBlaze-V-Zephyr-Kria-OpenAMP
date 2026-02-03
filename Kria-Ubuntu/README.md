@@ -128,7 +128,7 @@ After loading the hardware overlay, serial terminal attached to Microblaze will 
 ![OpenAMP microblaze serial log 1](images/openamp_ublaze_serial_log1.png)
 
 The Microblaze side app will wait for Linux side OpenAMP host application to create the rpmsg channels.
-So next run the host applciation by running the host application :
+So next run the host applciation by running application build in previously :
 
 ```
 cd <>/Kria-Ubuntu/OpenAMP-HostApp
