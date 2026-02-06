@@ -37,7 +37,7 @@ sudo apt install cmake doxygen libhugetlbfs-dev libsysfs-dev git
 
 ```
 
-### Install `libmetal` library from source
+### Installing `libmetal` library from source
 
 - Clone the repository :
 
@@ -63,7 +63,7 @@ sudo make  install
 
 ```
 
-### Install `OpenAMP` library from source
+### Installing `OpenAMP` library from source
 
 Next, clone the OpenAMP repository from GitHub and build it, linking against the recently installed libmetal libraries:
 
