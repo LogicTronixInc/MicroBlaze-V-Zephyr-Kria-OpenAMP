@@ -131,7 +131,7 @@ The Microblaze side app will wait for Linux side OpenAMP host application to cre
 So next run the host applciation by running application build in previously :
 
 ```
-cd <>/Kria-Ubuntu/OpenAMP-HostApp
+cd <path to main repo>/Kria-Ubuntu/OpenAMP-HostApp
 sudo ./rpmsg-sensor
 ```
 
