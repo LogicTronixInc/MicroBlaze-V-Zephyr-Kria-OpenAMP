@@ -95,7 +95,7 @@ sudo make DESTDIR=<openamp_install_location> install
 
 ## Building the OpenAMP Host application
 
-Navigate to this, `Kria-Ubuntu`, directory and build the application
+Navigate to this, `Kria-Ubuntu/OpenAMP-HostApp`, directory and build the application by running make command
 
 ```
 make
