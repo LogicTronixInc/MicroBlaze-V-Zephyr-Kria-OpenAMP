@@ -9,7 +9,7 @@ One can get the "Getting Started Guide" of this Kria App at here - [**Getting_St
 For recreating this kria-application, one can follow the "Detail Design Guide" from this directory - [Documentations](https://github.com/LogicTronixInc/MicroBlaze-V-Zephyr-Kria-OpenAMP/blob/main/Documentations)
 
 ## Architecture of the Kria App
-![KR260 Zephyr Sensor Fusion Setup with OpenAMP and Ubuntu - Architecture](https://github.com/LogicTronixInc/MicroBlaze-V-Zephyr-Kria-OpenAMP/blob/main/Hardware_VIVADO/Pictures/Kria_Zephyr_Sensor_Fusion_with_Ubuntu_OpenAMP.png)
+![KR260 Zephyr Sensor Fusion Setup with OpenAMP and Ubuntu - Architecture](https://github.com/LogicTronixInc/MicroBlaze-V-Zephyr-Kria-OpenAMP/blob/main/Hardware_VIVADO/Pictures/Kria_Zephyr_Sensor_Fusion_with_Ubuntu_OpenAMP.jpg)
 
 ## Kria KR260 and Pmod Sensor Setup 
 ![KR260 Zephyr Sensor Fusion Setup with Pmod Sensors](https://github.com/LogicTronixInc/MicroBlaze-V-Zephyr-Kria-OpenAMP/blob/main/Hardware_VIVADO/Pictures/1.%20KR260%20with%20modules.png)
