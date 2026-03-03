@@ -1,3 +1,6 @@
+***Note - This readme details the basic Zephyr Project Build Steps - this readme is part of "Detail_Design_Guide_2_Zephyr_App_and_Device_Tree.pdf"*** \
+***Note - For quickly evaluating this Kria-App, please follow - [**Getting_Started_Guide_Kria_Zephyr_OpenAMP_Sensor_Fusion_App**](https://github.com/LogicTronixInc/MicroBlaze-V-Zephyr-Kria-OpenAMP/blob/main/Documentations/Getting_Started_Guide_Kria_Zephyr_OpenAMP_Sensor_Fusion_App.pdf)***
+
 # How to use Zephyr and a Microblaze V processor on Kria KR260
 
 In this tutorial we will explain how to use some sensors and other modules with the Kria KR260 using Zephyr RTOS on a Microblaze V processor. 

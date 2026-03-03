@@ -14,10 +14,10 @@ set_property IOSTANDARD LVCMOS33 [get_ports sck]
 
 # UARTlite
 # UART_txd PMOD #2 pin 2 (connect rx of the uart device to pin 2)
-set_property PACKAGE_PIN H11 [get_ports UART_txd]
+set_property PACKAGE_PIN G10 [get_ports UART_txd]
 set_property IOSTANDARD LVCMOS33 [get_ports UART_txd]
 # UART_rxd PMOD #2 pin 4 (connect tx of the uart device to pin 4)
-set_property PACKAGE_PIN G10 [get_ports UART_rxd]
+set_property PACKAGE_PIN F12 [get_ports UART_rxd]
 set_property IOSTANDARD LVCMOS33 [get_ports UART_rxd]
 
 #I2C
@@ -58,9 +58,9 @@ set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_tri_io[0]}]
 
 # Reset button
 # PMOD #2 pin 1
-set_property PACKAGE_PIN J11 [get_ports ext_reset]
-set_property IOSTANDARD LVCMOS33 [get_ports ext_reset]
+#set_property PACKAGE_PIN J11 [get_ports ext_reset]
+#set_property IOSTANDARD LVCMOS33 [get_ports ext_reset]
 
 # 25Mhz clock for KR260
-set_property PACKAGE_PIN C3 [get_ports ext_clk]
-set_property IOSTANDARD LVCMOS18 [get_ports ext_clk]
+#set_property PACKAGE_PIN C3 [get_ports ext_clk]
+#set_property IOSTANDARD LVCMOS18 [get_ports ext_clk]
