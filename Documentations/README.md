@@ -13,7 +13,8 @@ We will use those :
 - GPIO LEDs (Digilent Pmod8LD module),
 - USB to serial UART (Digilent PmodUSBUART module).
 
-The hardware design, device tree and application files are available here : https://github.com/LogicTronix/Embedded-FPGA-Internship-Cedric-Le-Beaudour/tree/main/Week11/all_sensors_I2C_SPI_GPIO_UARTlite
+**The KR260 Test setup of this Zephyr tutorial looks like as below:**
+
 
 ![1  KR260 with modules](images/1.%20KR260%20with%20modules.png)
 
