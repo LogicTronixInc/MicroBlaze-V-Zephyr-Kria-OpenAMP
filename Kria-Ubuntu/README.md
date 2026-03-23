@@ -15,11 +15,18 @@ cd scripts
 ./update_kr260_device_tree.sh
 ```
 
+![Update device tree](images/update_device_tree.png)
+
 - Install Ubuntu Kernel updates
 
 ```
 ./install_updated_linux_kernel.sh
 ```
+
+![Update linux kernel](images/update_linux_kernel1.png)
+![Update linux kernel](images/update_linux_kernel2.png)
+
+After installation, reboot the board.
 
 - Also install hardware overlay needed for setting up Microblaze and sensors
 
@@ -89,7 +96,7 @@ cmake .. -DCMAKE_INCLUDE_PATH=/usr/local/include -DCMAKE_LIBRARY_PATH=/usr/local
 
 ```
 make VERBOSE=1
-sudo make DESTDIR=<openamp_install_location> install
+sudo make install
 
 ```
 
@@ -132,7 +139,9 @@ So next run the host applciation by running application build in previously :
 
 ```
 cd <path to main repo>/Kria-Ubuntu/OpenAMP-HostApp
-sudo ./rpmsg-sensor
+sudo su
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+ ./rpmsg-sensor
 ```
 
 This will run host application along with Microblaze side application.
