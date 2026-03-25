@@ -4,18 +4,8 @@ This directory consists of components to run the OpenAMP Userspace application i
 
 ## Installing components for OpenAMP host application
 
-OpenAMP userspace host application requires update in device tree and Ubuntu kernel.
+OpenAMP userspace host application requires update in Ubuntu kernel and device tree .
 Run scripts located here to install those updates.
-
-- Install device tree updates
-  Run `update_kr260_device_tree.sh` script to update the device tree
-
-```
-cd scripts
-./update_kr260_device_tree.sh
-```
-
-![Update device tree](images/update_device_tree.png)
 
 - Install Ubuntu Kernel updates
 
@@ -26,7 +16,27 @@ cd scripts
 ![Update linux kernel](images/update_linux_kernel1.png)
 ![Update linux kernel](images/update_linux_kernel2.png)
 
-After installation, reboot the board.
+After installation, reboot the board by running `sudo reboot` command at the terminal.
+
+- Install device tree updates
+  Run `update_kr260_device_tree.sh` script to update the device tree
+
+```
+cd scripts
+./update_kr260_device_tree.sh
+```
+
+
+
+Next copy the device tree blob by running following commands:
+```
+cd ../device-tree
+sudo cp smk-k26-revA-sck-kr-g-revB.dtb /lib/firmware/5.15.0-1027-xilinx-zynqmp/device-tree/xilinx/
+
+sudo flash-kernel
+```
+<!-- ![Update device tree](images/update_device_tree.png) -->
+After installation reboot the system. 
 
 - Also install hardware overlay needed for setting up Microblaze and sensors
 
@@ -43,6 +53,7 @@ sudo apt update
 sudo apt install cmake doxygen libhugetlbfs-dev libsysfs-dev git
 
 ```
+During last stage of above apt install, there will be message saying `Failed to check for processor microcode upgrades.` , you can dont care this message.
 
 ### Installing `libmetal` library from source
 
